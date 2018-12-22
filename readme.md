@@ -1,8 +1,10 @@
 # Dual image annotation tool
 
-## preview
+## Preview
 
 <img src="preview/example.png">
 
-## Usage
+## Try it!
+
+https://yiyuezhuo.github.io/Dual-image-annotation-tool/
 
