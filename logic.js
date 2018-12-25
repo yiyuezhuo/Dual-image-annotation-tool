@@ -65,10 +65,12 @@ elements.canvas.onclick = function(e){
 }
 
 elements.btnExport1.onclick = function(){
-    downloadTextFile(JSON.stringify(points1), 'point1.json');
+    //downloadTextFile(JSON.stringify(points1), 'point1.json'); 
+    downloadTextFile(JSON.stringify(points1), elements.inp1.files[0].name+'.json');
 }
 elements.btnExport2.onclick = function(){
-    downloadTextFile(JSON.stringify(points2), 'point2.json');
+    //downloadTextFile(JSON.stringify(points2), 'point2.json');
+    downloadTextFile(JSON.stringify(points2), elements.inp2.files[0].name+'.json');
 }
 elements.inpPoint1.onchange = function(){
     // https://stackoverflow.com/questions/3146483/html5-file-api-read-as-text-and-binary
